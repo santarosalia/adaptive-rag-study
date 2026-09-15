@@ -1,0 +1,30 @@
+adaptive-rag-study
+Copyright 2026 santarosalia
+
+This repository contains study notes and documentation written for learning purposes.
+The study documentation under docs/ is original content in this repository.
+
+---
+
+Third-Party Software Notice
+
+This product includes software developed by the Adaptive-RAG authors,
+originally distributed under the Apache License, Version 2.0.
+
+  Source: https://github.com/starsuzi/Adaptive-RAG
+  License: Apache License 2.0
+  Location in this repository: vendor/Adaptive-RAG/
+  Upstream commit (subtree import): 0c88670af8707667eb5c1163151bb5ce61b14acb
+
+  Paper: Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language
+  Models through Question Complexity
+  https://arxiv.org/abs/2403.14403
+
+  Copyright holders and contributors as stated in vendor/Adaptive-RAG/LICENSE.
+
+  This study repository vendors the upstream code via git subtree. The full
+  Apache 2.0 license text is preserved at vendor/Adaptive-RAG/LICENSE.
+  No copyright notices from the upstream work have been removed.
+
+  Acknowledgement from upstream: IRCoT (https://github.com/StonyBrookNLP/ircot)
+  is referenced as skeleton code in the original repository.

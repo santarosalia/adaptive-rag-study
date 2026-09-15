@@ -1,0 +1,23 @@
+# Adaptive-RAG 스터디 문서
+
+한국어 중심 학습 노트입니다. 수치·실험 결과는 [논문](https://arxiv.org/abs/2403.14403) 및 [upstream README](../vendor/Adaptive-RAG/README.md)를 출처로 합니다.
+
+## 목차
+
+1. [논문 요약](01-paper-summary.md)
+2. [아키텍처](02-architecture.md)
+3. [Upstream 코드 맵](03-upstream-repo-map.md)
+4. [재현 가이드](04-repro-guide.md)
+5. [용어집](glossary.md)
+
+## 읽는 순서 (권장)
+
+```
+01-paper-summary → 02-architecture → 03-upstream-repo-map → 04-repro-guide
+                                      ↘ glossary (필요 시)
+```
+
+## 출처
+
+- 논문: [Adaptive-RAG (arXiv:2403.14403)](https://arxiv.org/abs/2403.14403)
+- 코드: [starsuzi/Adaptive-RAG](https://github.com/starsuzi/Adaptive-RAG) (Apache-2.0, `vendor/Adaptive-RAG/`)
