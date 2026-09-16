@@ -8,12 +8,16 @@
 2. [아키텍처](02-architecture.md)
 3. [Upstream 코드 맵](03-upstream-repo-map.md)
 4. [재현 가이드](04-repro-guide.md)
-5. [용어집](glossary.md)
+5. [논문 vs chat-agent](05-paper-vs-chat-agent.md)
+6. [chat-agent LangGraph 파이프라인](06-langgraph-pipeline.md)
+7. [쿼리 적응 (user / missing)](07-query-adaptation.md)
+8. [용어집](glossary.md)
 
 ## 읽는 순서 (권장)
 
 ```
 01-paper-summary → 02-architecture → 03-upstream-repo-map → 04-repro-guide
+                                      ↘ 05-paper-vs-chat-agent → 06-langgraph-pipeline → 07-query-adaptation
                                       ↘ glossary (필요 시)
 ```
 
@@ -21,3 +25,4 @@
 
 - 논문: [Adaptive-RAG (arXiv:2403.14403)](https://arxiv.org/abs/2403.14403)
 - 코드: [starsuzi/Adaptive-RAG](https://github.com/starsuzi/Adaptive-RAG) (Apache-2.0, `vendor/Adaptive-RAG/`)
+- 프로덕션 지향 구현: [santarosalia/chat-agent](https://github.com/santarosalia/chat-agent) (05–07에서 ADR 기준으로 연결)
