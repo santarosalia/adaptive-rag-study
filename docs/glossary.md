@@ -19,6 +19,11 @@ Adaptive-RAG 스터디에서 자주 쓰는 용어입니다. 코드 identifier는
 | **Multi-hop QA** | 여러 문서·단계가 필요한 질문 (HotpotQA, 2WikiMultiHopQA, MuSiQue) |
 | **EM / F1** | Exact Match / token F1 — QA 정확도 metric |
 | **Step efficiency** | 답변당 retrieval·reasoning step 수 — 효율 지표 |
+| **Self-RAG** | reflection token으로 retrieve·generate·critique를 통합한 adaptive RAG ([2310.11511](https://arxiv.org/abs/2310.11511)) |
+| **Reflection token** | Self-RAG의 Retrieve / IsRel / IsSup / IsUse 등 특수 critique 토큰 |
+| **CRAG** | retrieval evaluator + Correct/Incorrect/Ambiguous 보정 action ([2401.15884](https://arxiv.org/abs/2401.15884)) |
+| **Iter-RetGen** | 이전 생성물 `y_{t-1}`과 질문을 concat해 반복 retrieve–generate ([2305.15294](https://arxiv.org/abs/2305.15294)) |
+| **Sufficiency evaluator** | chat-agent ADR 0011의 retrieve 후 `{ sufficient, missing[] }` 판단 LLM |
 | **Dev subsample (500)** | classifier 학습용 dev subset (`dev_diff_size 500`) |
 | **jsonnet** | 실험 config 작성에 쓰는 설정 언어 (`base_configs/`) |
 | **git subtree** | upstream 저장소를 하위 경로에 병합하는 git 방식 (`vendor/Adaptive-RAG/`) |
