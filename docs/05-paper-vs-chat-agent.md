@@ -83,4 +83,5 @@ chat-agent는 RAG의 **`POST /v1/retrieve`만** 호출하고, 최종 답변 LLM�
 
 - [06-langgraph-pipeline.md](06-langgraph-pipeline.md) — 노드별 동작·mermaid
 - [07-query-adaptation.md](07-query-adaptation.md) — 쿼리 적응과 ADR 0008 → 0011 변천
+- [11-adaptive-rag-family-comparison.md](11-adaptive-rag-family-comparison.md) — Self-RAG · CRAG · Iter-RetGen · chat-agent 통합 비교
 - [02-architecture.md](02-architecture.md) — upstream Adaptive-RAG 구조

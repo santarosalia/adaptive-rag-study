@@ -85,3 +85,5 @@ chat-agent에서 **“어떤 문자열로 hybrid RAG를 검색할 것인가”**
 
 - [06-langgraph-pipeline.md](06-langgraph-pipeline.md)
 - [05-paper-vs-chat-agent.md](05-paper-vs-chat-agent.md)
+- [10-iter-retgen.md](10-iter-retgen.md) — `missing` vs generation-augmented retrieval query
+- [11-adaptive-rag-family-comparison.md](11-adaptive-rag-family-comparison.md)
